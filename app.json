@@ -12,13 +12,18 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.raider.PresentPermissionsPickerAsync",
+      "infoPlist": {
+        "PHPhotoLibraryPreventAutomaticLimitedAccessAlert": true
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.raider.PresentPermissionsPickerAsync"
     },
     "web": {
       "favicon": "./assets/favicon.png"
